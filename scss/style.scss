@@ -8,3 +8,23 @@ body{
 p{
     color: $color-accent;
 }
+
+@font-face {
+    font-family: KaushanScript;
+    src: url(/scss/fonts/KaushanScript.ttf);
+}
+
+ body{
+     font-size: 100% ;
+     background-color: transparentize($color-bg-primary, 0.62);
+ }
+h1{
+    font-family: KaushanScript , 'Lucida Grande', sans-serif;
+    color: $color-primary;
+    text-shadow: -1.5px 0 0 #fff , 1.5px 0 0 #fff, 0 1.5px 0 #fff , 0 -1.5px 0 #fff,-3px 0 0 $color-brd-text , 3px 0 0 $color-brd-text, 0 3px 0 $color-brd-text , 0 -3px 0 $color-brd-text;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    color: $color-brd-text;
+}

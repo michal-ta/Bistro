@@ -5,4 +5,25 @@ body {
 p {
   color: #727272;
 }
+
+@font-face {
+  font-family: KaushanScript;
+  src: url(/scss/fonts/KaushanScript.ttf);
+}
+
+body {
+  font-size: 100%;
+  background-color: rgba(177, 175, 196, 0.38);
+}
+
+h1 {
+  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  color: #a13b3d;
+  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, -3px 0 0 #833032, 3px 0 0 #833032, 0 3px 0 #833032, 0 -3px 0 #833032;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  color: #833032;
+}
 /*# sourceMappingURL=style.css.map */
