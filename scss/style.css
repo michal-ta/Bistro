@@ -19,7 +19,7 @@ body {
 h1 {
   font-family: KaushanScript , 'Lucida Grande', sans-serif;
   color: #a13b3d;
-  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, -3px 0 0 #833032, 3px 0 0 #833032, 0 3px 0 #833032, 0 -3px 0 #833032;
+  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 #833032, 2.8px 0 0 #833032, 0 2.8px 0 #833032, 0 -2.8px 0 #833032, -2.8px -2.8px 0 #833032, 2.8px 2.8px 0 #833032, -2.8px 2.8px 0 #833032;
   letter-spacing: 0.1em;
 }
 

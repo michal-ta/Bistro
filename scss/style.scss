@@ -21,7 +21,9 @@ p{
 h1{
     font-family: KaushanScript , 'Lucida Grande', sans-serif;
     color: $color-primary;
-    text-shadow: -1.5px 0 0 #fff , 1.5px 0 0 #fff, 0 1.5px 0 #fff , 0 -1.5px 0 #fff,-3px 0 0 $color-brd-text , 3px 0 0 $color-brd-text, 0 3px 0 $color-brd-text , 0 -3px 0 $color-brd-text;
+    text-shadow: -1.5px 0 0 #fff , 1.5px 0 0 #fff, 0 1.5px 0 #fff , 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px  0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 $color-brd-text , 2.8px 0 0 $color-brd-text, 0 2.8px 0 $color-brd-text , 0 -2.8px 0 $color-brd-text,-2.8px -2.8px 0 $color-brd-text, 2.8px 2.8px  0 $color-brd-text, -2.8px 2.8px  0 $color-brd-text;
+    
+    
     letter-spacing: 0.1em;
 }
 
