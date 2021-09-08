@@ -10,14 +10,13 @@ p {
   font-family: KaushanScript;
   src: url(/scss/fonts/KaushanScript.ttf);
 }
-
 body {
   font-size: 100%;
   background-color: rgba(177, 175, 196, 0.38);
 }
 
 h1 {
-  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  font-family: KaushanScript, "Lucida Grande", sans-serif;
   color: #a13b3d;
   text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 #833032, 2.8px 0 0 #833032, 0 2.8px 0 #833032, 0 -2.8px 0 #833032, -2.8px -2.8px 0 #833032, 2.8px 2.8px 0 #833032, -2.8px 2.8px 0 #833032;
   letter-spacing: 0.1em;
@@ -26,4 +25,11 @@ h1 {
 h2 {
   color: #833032;
 }
-/*# sourceMappingURL=style.css.map */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 #833032, 2.8px 0 0 #833032, 0 2.8px 0 #833032, 0 -2.8px 0 #833032, -2.8px -2.8px 0 #833032, 2.8px 2.8px 0 #833032, -2.8px 2.8px 0 #833032;
+  font-size: 1.5em;
+  color: #a13b3d;
+}/*# sourceMappingURL=style.css.map */
