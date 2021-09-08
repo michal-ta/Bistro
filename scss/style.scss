@@ -1,40 +1,31 @@
 @import '_variables.scss';
-@import 'mixin.scss';
+@import '_mixin.scss';
+@import '_navigation.scss';
 
-
-body{
-    background-color: red;
-}
-
-p{
-    color: $color-accent;
-}
+//general 
+    
 
 @font-face {
     font-family: KaushanScript;
     src: url(/scss/fonts/KaushanScript.ttf);
 }
 
- body{
+ body {
      font-size: 100% ;
-     background-color: transparentize($color-bg-primary, 0.62);
+     background-color: lighten($color-bg-primary, 28%);
+     margin:0;
+     padding: 1em 3em 3em 3em;
  }
-h1{
+
+//header
+///-------------------
+
+.brand{
     font-family: KaushanScript , 'Lucida Grande', sans-serif;
+    font-size: em(42);
     color: $color-primary;
     @include shadow;
-    letter-spacing: 0.1em;
-}
-
-h2{
-    color: $color-brd-text;
-}
-
-a{
-    text-decoration: none;
-    display: inline-block;
-    @include shadow;
-    font-size: 1.5em;
-    color:$color-primary;
-
+    text-align: center;
+    padding-bottom: em(15,42);
+    
 }

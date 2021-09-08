@@ -1,35 +1,46 @@
-body {
-  background-color: red;
+.navigation ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 1.2em 0;
+  border-bottom: 0.125em solid #3c3739;
 }
 
-p {
-  color: #727272;
+a {
+  text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
+  color: #a13b3d;
+  font-size: 1.75em;
+  padding-left: 1.875em;
+  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  text-decoration: none;
 }
 
 @font-face {
   font-family: KaushanScript;
   src: url(/scss/fonts/KaushanScript.ttf);
 }
+
 body {
   font-size: 100%;
-  background-color: rgba(177, 175, 196, 0.38);
+  background-color: #999194;
+  margin: 0;
+  padding: 1em 3em 3em 3em;
 }
 
-h1 {
-  font-family: KaushanScript, "Lucida Grande", sans-serif;
+.brand {
+  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  font-size: 2.625em;
   color: #a13b3d;
-  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 #833032, 2.8px 0 0 #833032, 0 2.8px 0 #833032, 0 -2.8px 0 #833032, -2.8px -2.8px 0 #833032, 2.8px 2.8px 0 #833032, -2.8px 2.8px 0 #833032;
-  letter-spacing: 0.1em;
+  text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
+  text-align: center;
+  padding-bottom: 0.35714em;
 }
-
-h2 {
-  color: #833032;
-}
-
-a {
-  text-decoration: none;
-  display: inline-block;
-  text-shadow: -1.5px 0 0 #fff, 1.5px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff, 1.5px 1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, -2.8px 0 0 #833032, 2.8px 0 0 #833032, 0 2.8px 0 #833032, 0 -2.8px 0 #833032, -2.8px -2.8px 0 #833032, 2.8px 2.8px 0 #833032, -2.8px 2.8px 0 #833032;
-  font-size: 1.5em;
-  color: #a13b3d;
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
