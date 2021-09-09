@@ -4,7 +4,12 @@
 
 //general 
     
-
+html{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: darken($color-bg-primary, 12%);
+}
 @font-face {
     font-family: KaushanScript;
     src: url(/scss/fonts/KaushanScript.ttf);
@@ -12,9 +17,8 @@
 
  body {
      font-size: 100% ;
-     background-color: lighten($color-bg-primary, 28%);
-     margin:0;
-     padding: 1em 3em 3em 3em;
+     background-color: lighten($color-bg-primary, 22%);
+     margin: 0 3em 3em 3em;
  }
 
 //header
