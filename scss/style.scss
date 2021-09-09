@@ -22,10 +22,23 @@
 
 .brand{
     font-family: KaushanScript , 'Lucida Grande', sans-serif;
-    font-size: em(42);
+    font-size: em(50);
     color: $color-primary;
     @include shadow;
     text-align: center;
     padding-bottom: em(15,42);
     
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.aboutus{
+    width: 50%;
+}
+
+.bistor{
+    width: 50%;
 }

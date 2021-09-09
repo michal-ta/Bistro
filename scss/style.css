@@ -1,15 +1,8 @@
 .navigation ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  justify-content: center;
   padding: 0 0 1.2em 0;
   border-bottom: 0.125em solid #3c3739;
 }
@@ -19,7 +12,7 @@ a {
   color: #a13b3d;
   font-size: 1.75em;
   padding-left: 1.875em;
-  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  font-family: KaushanScript, "Lucida Grande", sans-serif;
   text-decoration: none;
 }
 
@@ -27,7 +20,6 @@ a {
   font-family: KaushanScript;
   src: url(/scss/fonts/KaushanScript.ttf);
 }
-
 body {
   font-size: 100%;
   background-color: #999194;
@@ -36,11 +28,23 @@ body {
 }
 
 .brand {
-  font-family: KaushanScript , 'Lucida Grande', sans-serif;
-  font-size: 2.625em;
+  font-family: KaushanScript, "Lucida Grande", sans-serif;
+  font-size: 3.125em;
   color: #a13b3d;
   text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
   text-align: center;
-  padding-bottom: 0.35714em;
+  padding-bottom: 0.3571428571em;
 }
-/*# sourceMappingURL=style.css.map */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutus {
+  width: 50%;
+}
+
+.bistro {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
