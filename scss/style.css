@@ -50,7 +50,7 @@ h1 {
   color: #a13b3d;
   text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
   text-align: center;
-  padding-bottom: 0.35714em;
+  padding: 0.24em 0 0.24em 0;
 }
 
 .container {

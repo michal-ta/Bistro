@@ -32,7 +32,7 @@ h1{
     color: $color-primary;
     @include shadow;
     text-align: center;
-    padding-bottom: em(15,42);
+    padding: em(12,50) 0 em(12,50) 0;
     
 }
 
