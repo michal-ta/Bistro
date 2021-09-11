@@ -15,7 +15,7 @@
   overflow: hidden;
   position: fixed;
   top: -1.125em;
-  width: 97.2%;
+  width: 98.3%;
   z-index: 200;
   background-color: rgba(167, 160, 143, 0.97);
 }
@@ -52,12 +52,11 @@ body {
   font-size: 100%;
   background-color: #c0c7d1;
   line-height: 1.2em;
-  margin: 0.25em 1em;
 }
 
 body main {
-  margin: 4em 1.5em 2em 1.5em;
-  padding: 0.12em 1.5em 2em 1.5em;
+  margin-top: 4.8em;
+  padding: 2em;
 }
 
 h1 {
@@ -66,7 +65,7 @@ h1 {
   color: #a13b3d;
   text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
   text-align: center;
-  padding: 0.24em 0 0.24em 0;
+  padding: 0.04em 0 0.48em 0;
 }
 
 .container {
