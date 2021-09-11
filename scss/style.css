@@ -34,6 +34,66 @@
   color: #da9b9c;
 }
 
+h1 {
+  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  font-size: 3.125em;
+  color: #a13b3d;
+  text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
+  text-align: center;
+  padding: 0.04em 0 0.48em 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 0.125em solid #4d5869;
+  padding-bottom: 1.375em;
+}
+
+span {
+  color: #a13b3d;
+  font-weight: bold;
+}
+
+.aboutus {
+  width: 50%;
+  font-size: 1.125em;
+  letter-spacing: 0.06875em;
+}
+
+.aboutus li {
+  list-style: none;
+  padding: 0.75em 0 0.25em 1.75em;
+  background-color: #a9a292;
+  width: 104%;
+  position: relative;
+  top: -1.125em;
+  left: -0.8125em;
+  border: 1px solid #67534e;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.aboutus li:last-child {
+  padding-bottom: 0.875em;
+}
+
+.aboutus .border {
+  width: 25em;
+  background-color: #846b64;
+  margin: 0;
+  margin-top: 3.125em;
+}
+
+.bistro {
+  width: 50%;
+}
+
 html {
   margin: 0;
   padding: 0;
