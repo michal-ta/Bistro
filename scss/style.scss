@@ -9,21 +9,27 @@ html{
     padding:0;
     box-sizing: border-box;
     background-color: #f9f6f9;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: KaushanScript;
     src: url(/scss/fonts/KaushanScript.ttf);
 }
 
- body {
+ body{
      font-size: 100% ;
      background-color: lighten($color-bg-primary, 35%);
-     margin:  1em 1.5em 2em 1.5em;
-     padding: 0 1.5em 2em 1.5em;
      line-height: 1.2em;
+     margin: 0.25em 1em;
+
+     main{
+        margin:  4em 1.5em 2em 1.5em;
+        padding: 0.12em 1.5em 2em 1.5em;
+
+     }
  }
 
-//header
+//main content
 ///-------------------
 
 h1{
