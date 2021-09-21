@@ -8,32 +8,7 @@
     .border{
         background-color: darken($color-bg-primary,25%);
         margin-top: em(25); 
+        border-radius: em(6);  
     }
 }
 
-.table{
-    display: inline-block;
-    border: em(2.5) solid $color-acc-sec;
-    font-size: em(20);
-    background-color: $color-accent;
-    position: relative;
-    top:em(-18);
-    left: em(18);
-    
-
-    th{
-        width: 12em;
-        height: auto;
-        text-align: center;
-        padding: 0.30em ;
-        border: em(1) solid $color-acc-sec;
-    }
-
-    td{
-        text-align: center;
-        height: auto;
-        width: 33%;
-        border: em(0.8) solid $color-acc-sec;
-        padding: 0.22em ;
-    }
-}

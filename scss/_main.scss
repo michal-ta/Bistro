@@ -24,14 +24,15 @@ span{
     font-size: em(18);
     letter-spacing: em(1.1);
 
+    ul{
+        margin-top: em(45);
+    }
+
     li{
         list-style: none;
-        padding : em(12) 0 em(4) em(28);
+        padding : em(12) 0 em(4) em(12);
         background-color: lighten($color-accent,1%);
-        width: 104%;
-        position: relative;
-        top: em(-18);
-        left: em(-13);
+        width: 98%;
         border: 1px solid darken($color-acc-sec, 10%);
         font-style: italic;
         font-weight: 600;
@@ -40,13 +41,14 @@ span{
     li:last-child{
         padding-bottom: em(14);
     }
-    
-    .border{
-        width: em(400);
-        background-color: $color-acc-sec;
-        margin: 0;
-        margin-top: em(50);    
+
+    .menulist{
+        margin-right: em(85);
+        padding-left:0px;
+        box-shadow: 1px 1px 12px $color-acc-sec;
     }
+    
+    
 }
 .bistro{
     width: 50%;

@@ -1,0 +1,29 @@
+.cennik{
+    padding: em(28);
+}
+
+.cennik_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    row-gap: em(10);
+    column-gap: em(10);
+    
+
+
+    .grid_item{
+    border: 1px solid darken($color-bg-primary,85%);
+    background-color: lighten($color-bg-primary,12%);
+    padding: em(12) em(15);
+    box-shadow: 1px 1px 3px $color-acc-sec;
+    border-radius: em(2);
+    color: darken($color-bg-primary,38%);
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: em(1.5);
+    }
+
+    h3{
+        color: darken($color-primary,12%);
+    }
+}
