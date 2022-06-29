@@ -1,0 +1,61 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f9f6f9;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: KaushanScript;
+  src: url(/scss/fonts/KaushanScript.ttf);
+}
+
+body {
+  font-size: 100%;
+  background-color: #c0c7d1;
+  line-height: 1.2em;
+}
+
+body main {
+  margin-top: 4.8em;
+  padding: 2em;
+}
+
+.navigation ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5em 0.5em 2em 0;
+  border-bottom: 0.125em solid #4d5869;
+  overflow: hidden;
+  position: fixed;
+  top: -1.125em;
+  width: 98.3%;
+  z-index: 200;
+  background-color: rgba(167, 160, 143, 0.97);
+}
+
+.navigation a {
+  text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
+  color: #a13b3d;
+  font-size: 1.75em;
+  padding-left: 1.875em;
+  font-family: KaushanScript , 'Lucida Grande', sans-serif;
+  text-decoration: none;
+  z-index: 250;
+}
+
+.navigation:hover, .navigation:active {
+  color: #da9b9c;
+}
+/*# sourceMappingURL=databaze.css.map */
