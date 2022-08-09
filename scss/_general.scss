@@ -10,13 +10,14 @@ html{
     src: url(/scss/fonts/KaushanScript.ttf);
 }
 
- body{
-     font-size: 100% ;
-     background-color: lighten($color-bg-primary, 35%);
-     line-height: 1.2em;
+body{
+    font-size: 100% ;
+    background-color: lighten($color-bg-primary, 35%);
+    line-height: 1.4em;
 
-     main{
+
+    main{
         margin-top:  4.8em ;
         padding: 2em; 
-     }
- }
+    }
+}
