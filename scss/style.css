@@ -216,6 +216,7 @@ span {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   font-weight: 900;
+  font-size: 120%;
   padding-bottom: 0.5em;
 }
 
