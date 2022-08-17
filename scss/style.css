@@ -16,6 +16,8 @@ body {
   font-size: 100%;
   background-color: #c0c7d1;
   line-height: 1.4em;
+  height: 100%;
+  width: 100%;
 }
 
 body main {
@@ -66,6 +68,67 @@ h1 {
   text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
   text-align: center;
   padding: 0.04em 0 0.48em 0;
+}
+
+.modal {
+  font-variant-caps: all-petite-caps;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transform: translateY(-1200px);
+          transform: translateY(-1200px);
+  background-color: rgba(167, 160, 143, 0.92);
+  z-index: 500;
+  border: 0.125em solid black;
+  -webkit-transition: 1s all ease-out;
+  transition: 1s all ease-out;
+}
+
+.modal h2 {
+  font-family: KaushanScript, 'Lucida Grande', sans-serif;
+  font-size: 2em;
+  color: #a13b3d;
+  text-shadow: 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff, 0 0 0.12em #fff;
+  text-align: center;
+  padding: 0.04em 0 0.48em 0;
+}
+
+.modal div {
+  width: 55%;
+  color: #222121;
+  font-size: 1.5em;
+  letter-spacing: 0.0875em;
+  font-weight: 800;
+}
+
+.modal.active {
+  -webkit-transform: translateY(-0.75em);
+          transform: translateY(-0.75em);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.modal_close {
+  font-variant-caps: all-petite-caps;
+  border: #a13b3d 0.125em solid;
+  border-radius: 0.1875em;
+  padding: 0.66667em;
+  font-size: 1em;
+  font-weight: 700;
+  opacity: 1;
 }
 
 .container {
