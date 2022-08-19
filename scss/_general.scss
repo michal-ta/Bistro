@@ -21,8 +21,13 @@ body{
 
 
     main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top:  4.8em ;
         padding: 2em; 
+
     }
 }
 
