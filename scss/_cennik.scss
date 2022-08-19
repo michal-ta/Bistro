@@ -1,3 +1,16 @@
+.cenniktable {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: em(60);
+    border-bottom: em(2) solid darken($color-bg-primary, 8%);
+
+    .border {
+        background-color: darken($color-bg-primary, 25%);
+        margin-top: em(25);
+        border-radius: em(6);
+    }
+}
 .price{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,7 +40,7 @@
     text-align: center;
     grid-column: 1/3;
     font-size: 92%;
-    color: $color-acc-sec;
+    color:darken($color-bg-primary,25%);
     font-weight: 400;
     padding-bottom: em(22)
 

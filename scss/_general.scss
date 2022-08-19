@@ -23,6 +23,9 @@ body{
     main{
         margin-top:  4.8em ;
         padding: 2em; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
